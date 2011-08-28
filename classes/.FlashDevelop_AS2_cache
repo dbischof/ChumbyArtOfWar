@@ -1,0 +1,8 @@
+
+#file-cache C:\Documents and Settings\Dell\Desktop\ChumbyArtOfWar\classes\ChumbyArtOfWar.as
+public class ChumbyArtOfWar{private static var widgetBackgroundColor : Number;private static var widgetBorderColor : Number;private static var contentBackgroundColor : Number;private static var textColor : Number;private static var book : ArtOfWarBook;private static var timeoutInterval;private static var nextTimeout;public static function main ();private static function tickTimeout () : Void;private static function updateContent () : Void;private static function drawBorder () : Void;private static function drawTimeout () : Void;private static function drawButtons () : Void;}
+#file-cache C:\Documents and Settings\Dell\Desktop\ChumbyArtOfWar\classes\ArtOfWarBook.as
+/**
+* This eBook is for the use of anyone anywhere at no cost and with* almost no restrictions whatsoever.  You may copy it, give it away or* re-use it under the terms of the Project Gutenberg License included* with this eBook or online at www.gutenberg.org* * http://www.gutenberg.org/files/17405/17405.txt
+*/
+public class ArtOfWarBook{public static var book : ArtOfWarBook;public var title : String;public var author : String;public var translator : String;public var year : Number;private var chapters : Array;private var chapterIndex : Number;private var paragraphIndex : Number;public function ArtOfWarBook ();public function randomContent () : Object;public function previousContent () : Object;public function nextContent () : Object;private function loadChapters () : Void;}
